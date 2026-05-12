@@ -2,17 +2,20 @@
 %TAG !u! tag:unity3d.com,2011:
 --- !u!78 &1
 TagManager:
-  serializedVersion: 2
-  tags: []
+  serializedVersion: 3
+  tags:
+  - Barrel
+  - Ladder
+  - Ground
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - Ground
   - Water
   - UI
-  - 
-  - 
+  - Barrel
+  - Player
   - 
   - 
   - 
@@ -41,3 +44,14 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: Ground
+    uniqueID: 687157221
+    locked: 0
+  - name: Barrel
+    uniqueID: 1248710165
+    locked: 0
+  - name: Player
+    uniqueID: 2759982477
+    locked: 0
+  m_RenderingLayers:
+  - Default
